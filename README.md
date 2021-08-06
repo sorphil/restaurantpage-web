@@ -1,5 +1,5 @@
 # Restaurant Page
-## OdinProject Javascript Stack Project 3
+## OdinProject Javascript Project 3
 Made with JS, Sass (Grid, Flex) and HTML  
 Bundled using Webpack  
 Font - Fredoka by Milena Brandao   
