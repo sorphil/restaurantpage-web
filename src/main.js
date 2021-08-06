@@ -89,8 +89,12 @@ const footerDiv = ()=>{
                                 <a class = "footerHead">CONTACTS</a>
                             </div>
                         </div>
-                        <a class = "author" href = "https://github.com/sorphil">by @sorphil</a>
-                        <a href = "https://www.birdandthebottle.com/" target = "_blank">Visual inspiration from https://www.birdandthebottle.com/</a>
+                        <div class ="footerCredits">
+                            <div>By:- <a class = "credits" href = "https://github.com/sorphil">@sorphil</a></div>
+                            <div>Visual inspiration:- <a  class = "credits" href = "https://www.birdandthebottle.com/" target = "_blank">Bird & The Bottle</a></div>
+                            <div>Images from:- <a  class = "credits" href = "https://unsplash.com/" target = "_blank">Unsplash</a></div>
+                        </div>
+                       
                         `
     return footer
 }

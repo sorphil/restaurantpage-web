@@ -19,7 +19,7 @@ $color-black:rgb(42, 43, 46);
 $color-blue:rgb(68, 123, 136);
 
 //title styles
-.head{font-size: 11rem; padding:1rem; }
+.head{font-size: 11rem; padding:1rem; color: $color-black;}
 .subhead{font-size: 6rem; color: $color-blue;}
 .subheadSuper{font-size: 4rem;}
 
@@ -47,10 +47,10 @@ html, body
 }
 
 
-.navbar, .logoNav, .navTabs, .imgFeed, .footerLinks, .footerColumn{display: flex;}
+.navbar, .logoNav, .navTabs, .imgFeed, .footerLinks, .footerColumn, .footerCredits{display: flex;}
 .navbar, .imgFeed, .footer, .footerColumn {flex-direction: column;}
 
-.logoNav, .navTabs, .imgFeed, .footer, .footerLinks{justify-content: center;}
+.logoNav, .navTabs, .imgFeed, .footer, .footerLinks, .footerCredits{justify-content: center;}
 .imgFeed, .footer {align-items: center;}
 .section-1, .section-2, .section-3, .logoSub{text-align: center;}
 
@@ -58,8 +58,9 @@ html, body
 button:hover, .logoNav, .footer{background-color: $color-blue;}
 html, body, button, .navTabs {background-color: $color-white;}
 
-button:hover, .logoNav, .footer, .author {color:$color-white}
+button:hover, .logoNav, .footer{color:$color-white}
 button, .navTabs, .logoSubSuper {color:$color-blue;}
+.credits{color:$color-black}
 
 .logoNav{font-size:3.5rem; font-weight: bold;}
 .navTabs{font-size:3rem;}
@@ -118,5 +119,6 @@ button, .navTabs, .logoSubSuper {color:$color-blue;}
     >div{padding-bottom: 2rem;}
     >a{padding:0 0 1rem 0;}
 }
+.footerCredits >div {padding:5rem 5rem 0 5rem;}
 
 
