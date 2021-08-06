@@ -1,0 +1,244 @@
+/* Fredoka +1 by Milena Brandao */
+@font-face {
+  font-family: 'Fredoka One';
+  src: url("../assets/fonts/FredokaOne-Regular.eot");
+  src: url("../assets/fonts/FredokaOne-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/FredokaOne-Regular.woff2") format("woff2"), url("../assets/fonts/FredokaOne-Regular.woff") format("woff"), url("../assets/fonts/FredokaOne-Regular.ttf") format("truetype"), url("../assets/fonts/FredokaOne-Regular.svg#FredokaOne-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.head {
+  font-size: 11rem;
+  padding: 1rem;
+}
+
+.subhead {
+  font-size: 6rem;
+  color: #447b88;
+}
+
+.subheadSuper {
+  font-size: 4rem;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  max-width: 100vw;
+  font-size: 62.5%;
+  font-family: 'Fredoka One';
+  background-color: #fcfcfc;
+}
+
+.content .navbar {
+  z-index: 99999;
+  position: fixed;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content .navbar .logoNav {
+  background-color: #447b88;
+  color: #fcfcfc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 3.5rem;
+  padding: 1rem 0 1rem 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+}
+
+.content .navbar .navTabs {
+  background-color: #fcfcfc;
+  color: #447b88;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem 0 2rem 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 0.3rem solid #e4e4e4;
+}
+
+.content .navbar .navTabs a {
+  cursor: pointer;
+  font-size: 3rem;
+  padding: 0 2rem 0 2rem;
+}
+
+.content .navbar .navTabs a:hover {
+  text-decoration: underline;
+}
+
+.content .navbar .navTabs a.active {
+  text-decoration: underline;
+}
+
+.content .mainContent > div {
+  width: 100%;
+}
+
+.content .mainContent .section-1 {
+  padding: 13rem 0 5rem 0;
+  text-align: center;
+  height: 78rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.content .mainContent .section-1 .logoImg {
+  margin-top: 7rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 45rem;
+  width: auto;
+}
+
+.content .mainContent .section-1 .logoSub {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 11rem;
+}
+
+.content .mainContent .section-1 .logoSuperSub {
+  margin-top: 1rem;
+  color: #447b88;
+  font-size: 7rem;
+}
+
+.content .mainContent .section-2 {
+  padding: 5rem 0 5rem 0;
+  text-align: center;
+}
+
+.content .mainContent .section-2 button, .content .mainContent .section-2 a {
+  margin: 2rem;
+  font-family: 'Fredoka One';
+  cursor: pointer;
+  font-size: 3rem;
+  background-color: #fcfcfc;
+  color: #447b88;
+  border: 0.3rem solid #447b88;
+  padding: 1.8rem;
+}
+
+.content .mainContent .section-2 button:hover, .content .mainContent .section-2 a:hover {
+  background-color: #447b88;
+  color: #fcfcfc;
+}
+
+.content .mainContent .section-2 > div {
+  padding: 4rem 0 2rem 0;
+}
+
+.content .mainContent .section-3 {
+  text-align: center;
+  padding: 5rem 0 5rem 0;
+}
+
+.content .mainContent .section-3 .imgFeed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 0 5rem 0;
+}
+
+.content .mainContent .section-3 .imgTile {
+  height: 40rem;
+  width: 40rem;
+}
+
+.content .mainContent .section-3 .imgRect {
+  height: 40rem;
+  width: 70rem;
+}
+
+.content .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #447b88;
+  color: #fcfcfc;
+  padding: 5rem 0 5rem 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.8rem;
+}
+
+.content .footer .footerHead {
+  font-size: 2.5rem;
+}
+
+.content .footer .footerLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .footer .footerColumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 5rem 0 5rem;
+}
+
+.content .footer .footerColumn > div {
+  padding-bottom: 2rem;
+}
+
+.content .footer .footerColumn > a {
+  padding: 0 0 1rem 0;
+}
+
+.content .footer .author {
+  font-size: 4rem;
+  color: #fcfcfc;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=styles.css.map */
