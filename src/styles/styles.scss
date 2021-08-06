@@ -122,3 +122,36 @@ button, .navTabs, .logoSubSuper {color:$color-blue;}
 .footerCredits >div {padding:5rem 5rem 0 5rem;}
 
 
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 481px) and (max-width: 767px) and (orientation: landscape)
+{
+    html, body{font-size: 5px;}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait)
+{
+    html, body{font-size: 3px;}
+}
+
+
+
+/* iPads (landscape) ----------- */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
+{
+    html, body{font-size: 7.4px;}
+}
+
+/* iPads (portrait) ----------- */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait)
+{
+    html, body{font-size: 6px;}
+}
+
+/* Device = Laptops, Desktops ----------- */
+@media (min-width: 1025px) and (max-width: 1280px) 
+{
+    html, body{font-size: 10px;}
+}
