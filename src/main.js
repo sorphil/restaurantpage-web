@@ -1,3 +1,7 @@
+const scrollTop = ()=>{
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 
 const changeTab = (tab)=> {
     document.querySelectorAll('.navTabs a').forEach((link)=>{
@@ -33,6 +37,7 @@ AOS.init()
 const getComponent = (component)=>{
     import (`./components/${component}`)
     .then((imported)=>imported[component]())
+    .then(scrollTop)
 }
 
 
