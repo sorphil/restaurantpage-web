@@ -1,9 +1,37 @@
 # Restaurant Page
 ## OdinProject Javascript Project 3
-Made with JS, Sass (Grid, Flex) and HTML  
-Bundled using Webpack  
-Font - Fredoka by Milena Brandao   
-Visual Inspiration - [Bird & The Bottle](https://www.birdandthebottle.com/)    
-Images from - [Unsplash](https://unsplash.com/)  
 
-Link - https://sorphil.github.io/Tic-Tac-Toe/
+### Live Demo
+![Restaurant Page Gif](https://media.giphy.com/media/7kPaFhEIPfNRadEqy2/giphy.gif)  
+[Spinning Dove & Co. Restaurant](https://sorphil.github.io/Restaurant-Page/)  
+
+### Getting Started
+* Clone the project by running the command   
+```git clone https://github.com/sorphil/Restaurant-Page```   
+* Install project dependencies  
+```npm install```  
+* Generate distribution files    
+```npm run-script build [or npx webpack]```  
+* Start live/webpack server  
+```npm start [or npx webpack serve]```
+
+### Built with
+- Javascript
+- Sass/CSS3 (Grid and Flex)
+- HTML5
+- AOS (Animate On Scroll) library by michalsnik
+
+### Webpack modules & plugins used
+- Babel-loader
+- HTML-loader
+- File-loader
+- Style-loader, CSS-loader, SASS-loader
+- HTMLWebPackPlugin
+- MiniCSSExtractPlugin  
+
+### Acknowledgement
+- Font: Fredoka by Milena Brandao   
+- Visual Inspiration from: [Bird & The Bottle](https://www.birdandthebottle.com/)    
+- Images from: [Unsplash](https://unsplash.com/)  
+
+
