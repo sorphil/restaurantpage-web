@@ -3,7 +3,7 @@
 
 ### Live Demo
 [Spinning Dove & Co. Restaurant](https://sorphil.github.io/Restaurant-Page/)   
-<img src="https://media.giphy.com/media/7kPaFhEIPfNRadEqy2/giphy.gif" width="500" height="auto" />  
+<img src="https://media.giphy.com/media/7kPaFhEIPfNRadEqy2/giphy.gif" width="400" height="auto" />  
 
 
 ### Getting Started
