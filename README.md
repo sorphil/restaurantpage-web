@@ -3,10 +3,8 @@
 
 ### Live Demo
 ![Restaurant Page Gif](https://media.giphy.com/media/S4urcqkPAulgkh5Qzh/giphy.gif)  
-[Spinning Dove & Co. Restaurant](https://sorphil.github.io/Restaurant-Page/)  
+[Spinning Dove & Co. Restaurant 🧆](https://sorphil.github.io/Restaurant-Page/)   
 
-
- 
 
 ### Getting Started
 * Clone the project by running the command   
