@@ -2,8 +2,9 @@
 ## OdinProject Javascript Project 3
 
 ### Live Demo
-![Restaurant Page Gif](https://media.giphy.com/media/7kPaFhEIPfNRadEqy2/giphy.gif)  
-[Spinning Dove & Co. Restaurant](https://sorphil.github.io/Restaurant-Page/)  
+[Spinning Dove & Co. Restaurant](https://sorphil.github.io/Restaurant-Page/)   
+<img src="https://media.giphy.com/media/7kPaFhEIPfNRadEqy2/giphy.gif" width="500" height="auto" />  
+
 
 ### Getting Started
 * Clone the project by running the command   
