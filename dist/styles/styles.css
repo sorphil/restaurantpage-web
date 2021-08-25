@@ -1,0 +1,175 @@
+/*!*****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/styles.scss ***!
+  \*****************************************************************************************************************/
+/* Fredoka +1 by Milena Brandao */
+@font-face {
+  font-family: 'Fredoka One';
+  src: url(../cd2ac486fa66fc20e103.eot);
+  src: url(../cd2ac486fa66fc20e103.eot?#iefix) format("embedded-opentype"), url(../dd7b2641129fcafb679f.woff2) format("woff2"), url(../dff367e39217ee4193a3.woff) format("woff"), url(../d5e15e398c1830630110.ttf) format("truetype"), url(../d6913bb5ad6d2800e5d4.svg#FredokaOne-Regular) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+.head {
+  font-size: 11rem;
+  padding: 1rem;
+  color: #2a2b2e; }
+
+.subhead {
+  font-size: 6rem;
+  color: #447b88; }
+
+.subheadSuper {
+  font-size: 4rem; }
+
+a, button {
+  cursor: pointer; }
+
+a {
+  text-decoration: none; }
+
+a:hover, button:hover, a.active {
+  text-decoration: underline; }
+
+button {
+  margin: 2rem;
+  font-family: 'Fredoka One';
+  font-size: 3rem;
+  border: 0.3rem solid #447b88;
+  padding: 1.8rem; }
+
+html, body {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  max-width: 100vw;
+  font-size: 62.5%;
+  font-family: 'Fredoka One'; }
+
+.navbar, .logoNav, .navTabs, .imgFeed, .footerLinks, .footerColumn, .footerCredits {
+  display: flex; }
+
+.navbar, .imgFeed, .footer, .footerColumn {
+  flex-direction: column; }
+
+.logoNav, .navTabs, .imgFeed, .footer, .footerLinks, .footerCredits {
+  justify-content: center; }
+
+.imgFeed, .footer {
+  align-items: center; }
+
+.section-1, .section-2, .section-3, .logoSub {
+  text-align: center; }
+
+button:hover, .logoNav, .footer {
+  background-color: #447b88; }
+
+html, body, button, .navTabs {
+  background-color: #fcfcfc; }
+
+button:hover, .logoNav, .footer {
+  color: #fcfcfc; }
+
+button, .navTabs, .logoSubSuper {
+  color: #447b88; }
+
+.credits {
+  color: #2a2b2e; }
+
+.logoNav {
+  font-size: 3.5rem;
+  font-weight: bold; }
+
+.navTabs {
+  font-size: 3rem; }
+
+.footer {
+  font-size: 1.8rem; }
+
+.footerHead {
+  font-size: 2.5rem; }
+
+.author {
+  font-size: 4rem; }
+
+.navbar, .mainContent > div {
+  width: 100%; }
+
+.navbar {
+  z-index: 99999;
+  position: fixed; }
+
+.logoNav {
+  padding: 1rem 0 1rem 0; }
+
+.navTabs {
+  padding: 2rem 0 2rem 0;
+  border: 0.3rem solid #e4e4e4; }
+  .navTabs a {
+    padding: 0 2rem 0 2rem; }
+
+.section {
+  padding: 10rem 0 10rem 0;
+  border-bottom: 0.3rem solid #e4e4e4; }
+
+.block {
+  padding: 2.5rem 0 2.5rem 0; }
+
+.subBlock {
+  padding-bottom: 2.5rem; }
+
+.logoImg {
+  margin-top: 10rem;
+  height: 45rem;
+  width: auto; }
+
+.imgFeed {
+  padding: 5rem 0 5rem 0; }
+
+.imgTile {
+  height: 40rem;
+  width: 40rem; }
+
+.imgRect {
+  height: 40rem;
+  width: 70rem; }
+
+.footer {
+  padding: 5rem 0 5rem 0; }
+
+.footerColumn {
+  padding: 0 5rem 0 5rem; }
+  .footerColumn > div {
+    padding-bottom: 2rem; }
+  .footerColumn > a {
+    padding: 0 0 1rem 0; }
+
+.footerCredits > div {
+  padding: 5rem 5rem 0 5rem; }
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+  html, body {
+    font-size: 5px; } }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
+  html, body {
+    font-size: 3px; } }
+
+/* iPads (landscape) ----------- */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  html, body {
+    font-size: 7.4px; } }
+
+/* iPads (portrait) ----------- */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  html, body {
+    font-size: 6px; } }
+
+/* Device = Laptops, Desktops ----------- */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  html, body {
+    font-size: 10px; } }
+
