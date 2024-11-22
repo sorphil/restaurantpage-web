@@ -1,5 +1,5 @@
-# Restaurant Page
-## OdinProject Javascript Project 3
+## Restaurant Page
+
 
 ### Live Demo
 [Spinning Dove & Co. Restaurant 🧆](https://sorphil.github.io/Restaurant-Page/)   
